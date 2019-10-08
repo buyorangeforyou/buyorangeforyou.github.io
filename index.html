@@ -3,144 +3,36 @@
 
 	<head>
 		<meta charset="utf-8">
-		<title>四阶行列矩阵计算</title>
 		
-		<script src="https://cdn.staticfile.org/vue/2.2.2/vue.min.js"></script>
 		
-		<style type="text/css">
-			input {width:40px;}
-		</style>
+		
+		<title>略。。。</title>
+		
+		
+		
 		
 		
 		
 	</head>
 
-	<body>
+	<body onload="on_load()">
 		
-		<div  id="app" style="text-align: center;">
-			<div style="text-align: center;">
-				<div>
-					<div>
-						<td><input v-model="v_11"></input></td>
-						<td><input v-model="v_12"></input></td>
-						<td><input v-model="v_13"></input></td>
-						<td><input v-model="v_14"></input></td>
-					</div>
-					<div>
-						<td><input v-model="v_21"></input></td>
-						<td><input v-model="v_22"></input></td>
-						<td><input v-model="v_23"></input></td>
-						<td><input v-model="v_24"></input></td>
-					</div>
-					<div>
-						<td><input v-model="v_31"></input></td>
-						<td><input v-model="v_32"></input></td>
-						<td><input v-model="v_33"></input></td>
-						<td><input v-model="v_34"></input></td>
-					</div>
-					<div>
-						<td><input v-model="v_41"></input></td>
-						<td><input v-model="v_42"></input></td>
-						<td><input v-model="v_43"></input></td>
-						<td><input v-model="v_44"></input></td>
-					</div>
-					<div><td>D=<input type="text" v-model="vd"></input></td></div>
-					<div>
-						<td>D1=<input type="text" v-model="vd1"></input></td>
-						<td>D2=<input type="text" v-model="vd2"></input></td>
-						<td>D3=<input type="text" v-model="vd3"></input></td>
-						<td>D4=<input type="text" v-model="vd4"></input></td>
-						
-					</div>
-				</div>
-			</div>
-			<button type="button" @click="getD()" style="width:100px;text-align: center;">确定</button>
-			
-		</div>
 		
 		
 		<script type="text/javascript">
-			new Vue({
-				el : '#app',
-				data: function(){
-					return{
-						v_11:'1',
-						v_12:'1',
-						v_13:'1',
-						v_14:'1',
-						
-						v_21:'1',
-						v_22:'1',
-						v_23:'1',
-						v_24:'1',
-						
-						v_31:'1',
-						v_32:'1',
-						v_33:'1',
-						v_34:'1',
-						
-						v_41:'1',
-						v_42:'1',
-						v_43:'1',
-						v_44:'1',
-						
-						v_51:'1',
-						v_52:'1',
-						v_53:'1',
-						v_54:'1',
-						
-						vd:'0',
-						vd1:'0',
-						vd2:'0',
-						vd3:'0',
-						vd4:'0',
-					};
-					
-					
-				},
-				
-				methods:{
-					testa: function(){
-						console.log(this.vd);
-					},
-					getD: function(){
-						this.vd = this.v_11*(this.v_22 * this.v_33 * this.v_44 + 
-											this.v_23 * this.v_34 * this.v_42 + 
-											this.v_24 * this.v_32 * this.v_43 - 
-											this.v_24 * this.v_33 * this.v_42 - 
-											this.v_23 * this.v_32 * this.v_44 - 
-											this.v_22 * this.v_34 * this.v_43)-
-								
-								this.v_12*(this.v_21 * this.v_33 * this.v_44 + 
-													this.v_23 * this.v_34 * this.v_41 + 
-													this.v_24 * this.v_31 * this.v_43 - 
-													this.v_24 * this.v_33 * this.v_41 - 
-													this.v_23 * this.v_31 * this.v_44 - 
-													this.v_21 * this.v_34 * this.v_43) +
-								
-								this.v_13*(this.v_21 * this.v_32 * this.v_44 + 
-													this.v_22 * this.v_34 * this.v_41 + 
-													this.v_24 * this.v_31 * this.v_42 - 
-													this.v_24 * this.v_32 * this.v_41 - 
-													this.v_22 * this.v_31 * this.v_44 - 
-													this.v_21 * this.v_34 * this.v_42) -
-								
-								this.v_14*(this.v_21 * this.v_32 * this.v_43 + 
-													this.v_22 * this.v_33 * this.v_41 + 
-													this.v_23 * this.v_31 * this.v_42 - 
-													this.v_23 * this.v_32 * this.v_41 - 
-													this.v_22 * this.v_31 * this.v_43 - 
-													this.v_21 * this.v_33 * this.v_42);
-					
-					console.log(this.vd);
-					}
-					
-				}
-			});
 			
+			function on_load(){
+				
+				while(1){
+					alert("傻眼了吧");
+					alert("不用想了");
+					alert("你出不去的");
+				}
+			}
 			
 		</script>
-		
+
+			
 		
 	</body>
 
